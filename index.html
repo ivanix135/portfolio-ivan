@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iván Baquero Valiente — Docente &amp; Creador Multimedia</title>
+    <meta name="description"
+        content="Portfolio profesional de Iván Baquero Valiente. Docente de Informática en Davante, especialista en redes y sistemas, y creador multimedia.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ════ NAVBAR ════ -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#hero" class="nav-logo">IB<span style="color:var(--accent)">.</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ════ HERO ════ -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <canvas id="particles-canvas"></canvas>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hola, soy <span class="gradient-text">Iván Baquero</span></h1>
+                <p class="tagline">
+                    <span id="typed-output" class="typed-text"></span><span class="cursor-blink">|</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary"><i class="fas fa-rocket"></i> Ver proyectos</a>
+                    <a href="#contacto" class="btn btn-outline"><i class="fas fa-envelope"></i> Contactar</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://www.linkedin.com/in/iv%C3%A1n-baquero-valiente-435914255/" target="_blank"
+                        rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:ivanix135@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image">
+                    <img src="IMG/1760734014733.png" alt="Iván Baquero Valiente">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ════ SOBRE MÍ ════ -->
+    <section id="sobre-mi">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="label">Sobre mí</span>
+                <h2>Pasión por la tecnología y la docencia</h2>
+                <p>Conectando la informática con las personas, formando a los profesionales del futuro.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>Tengo <strong>21 años</strong> y desde pequeño he sentido una profunda pasión por la
+                        <strong>informática, las redes y la multimedia</strong>. Me considero una persona creativa que
+                        siempre tiene proyectos y metas en mente.
+                    </p>
+                    <p>Actualmente combino mi trabajo como <strong>Docente de Informática y Comunicaciones en
+                            Davante</strong> con mis estudios del <strong>Grado en Multimedia</strong>, lo que me
+                        permite desarrollar mis dotes creativas a la vez que cumplo uno de mis sueños: <strong>la
+                            docencia</strong>.</p>
+                    <p>Me apasiona el mundo de la <strong>inteligencia artificial</strong> — llevo más de <strong>4
+                            años</strong> explorándola — así como el <strong>audiovisual, la edición de vídeo y el
+                            diseño 3D</strong>. En mi tiempo libre, me encanta <strong>viajar y descubrir nuevos
+                            lugares</strong>.</p>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="number"><span class="counter" data-target="4" data-suffix="+">0</span></div>
+                            <div class="stat-label">Años con IA</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="number"><span class="counter" data-target="3" data-suffix="+">0</span></div>
+                            <div class="stat-label">Empresas</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="number"><span class="counter" data-target="3">0</span></div>
+                            <div class="stat-label">Titulaciones</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-highlights reveal">
+                    <div class="highlight-card">
+                        <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <div>
+                            <h4>Docencia</h4>
+                            <p>Formando a futuros profesionales en el departamento de Informática y Comunicaciones de
+                                Davante.</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon"><i class="fas fa-network-wired"></i></div>
+                        <div>
+                            <h4>Redes y Sistemas</h4>
+                            <p>Especialista en administración de sistemas y redes informáticas con experiencia real en
+                                el sector.</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon"><i class="fas fa-palette"></i></div>
+                        <div>
+                            <h4>Creación Multimedia</h4>
+                            <p>Estudiante del Grado en Multimedia, combinando diseño, audiovisual y nuevas tecnologías.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="icon"><i class="fas fa-robot"></i></div>
+                        <div>
+                            <h4>Inteligencia Artificial</h4>
+                            <p>Más de 4 años explorando las posibilidades de la IA aplicada a proyectos creativos y
+                                profesionales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════ EXPERIENCIA ════ -->
+    <section id="experiencia" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="label">Experiencia</span>
+                <h2>Mi trayectoria profesional</h2>
+                <p>Desde la atención al cliente hasta la docencia, siempre creciendo.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-card">
+                        <span class="date">Actualidad · 1 año y 1 mes</span>
+                        <h3>Docente de Informática y Comunicaciones</h3>
+                        <span class="company">Davante</span>
+                        <p>Docente del departamento de Informática y Comunicaciones, formando a futuros profesionales
+                            del sector. Área principal: sistemas y redes. Periodo que incluye prácticas y contrato.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-card">
+                        <span class="date">Anterior</span>
+                        <h3>Técnico de Sistemas</h3>
+                        <span class="company">Carrie Consulting</span>
+                        <p>Soporte técnico, configuración de redes y gestión de infraestructuras TI para clientes
+                            empresariales.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-card">
+                        <span class="date">Anterior</span>
+                        <h3>Técnico de Sistemas</h3>
+                        <span class="company">Alerce Group</span>
+                        <p>Administración, mantenimiento y resolución de incidencias en sistemas informáticos y redes
+                            corporativas.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-card">
+                        <span class="date">Anterior</span>
+                        <h3>Asesor de Ventas</h3>
+                        <span class="company">Flamen&amp;co</span>
+                        <p>Atención al cliente, asesoramiento personalizado y gestión de ventas. Desarrollo de
+                            habilidades comunicativas clave.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════ FORMACIÓN ════ -->
+    <section id="formacion">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="label">Formación</span>
+                <h2>Mi formación académica</h2>
+                <p>Un camino de aprendizaje continuo en el mundo de la tecnología.</p>
+            </div>
+            <div class="education-grid">
+                <div class="education-card reveal">
+                    <div class="edu-icon">🎓</div>
+                    <span class="edu-status current">En curso</span>
+                    <h3>Grado en Multimedia</h3>
+                    <p class="school">Universidad — Actualmente cursando</p>
+                </div>
+                <div class="education-card reveal">
+                    <div class="edu-icon">🖥️</div>
+                    <span class="edu-status completed">Completado</span>
+                    <h3>CFGS Administración de Sistemas Informáticos en Red</h3>
+                    <p class="school">Formación Profesional de Grado Superior</p>
+                </div>
+                <div class="education-card reveal">
+                    <div class="edu-icon">🔧</div>
+                    <span class="edu-status completed">Completado</span>
+                    <h3>CFGM Sistemas Microinformáticos y Redes</h3>
+                    <p class="school">Centro San Valero</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════ SKILLS ════ -->
+    <section id="skills" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="label">Habilidades</span>
+                <h2>Mi stack técnico</h2>
+                <p>Las herramientas y tecnologías con las que trabajo día a día.</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category reveal">
+                    <h3><span>🌐</span> Redes y Sistemas</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Administración de Redes</span><span>90%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Windows Server / AD</span><span>85%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Linux (Ubuntu/Debian)</span><span>80%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Virtualización</span><span>80%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <h3><span>💻</span> Desarrollo Web</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>HTML / CSS</span><span>85%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>JavaScript</span><span>65%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Diseño UI/UX (Figma)</span><span>75%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Responsive Design</span><span>80%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <h3><span>🎨</span> Multimedia y Creatividad</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Edición de Vídeo</span><span>80%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Diseño de Interfaces (UI/UX)</span><span>75%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>IA Generativa</span><span>85%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Programación HTML / CSS</span><span>85%</span></div>
+                        <div class="skill-bar">
+                            <div class="fill" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════ PORTFOLIO ════ -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="label">Portfolio</span>
+                <h2>Mis proyectos universitarios</h2>
+                <p>Una selección de trabajos realizados durante el Grado en Multimedia.</p>
+            </div>
+
+            <h3 class="semester-title reveal"><span class="semester-badge">1er Semestre</span></h3>
+            <div class="portfolio-grid">
+
+                <!-- Proyecto 1: IA Generativa -->
+                <div class="project-card reveal">
+                    <div class="card-media">
+                        <img src="https://img.youtube.com/vi/vK_dlU5w_1c/hqdefault.jpg" alt="Entre Memoria y Algoritmo">
+                        <div class="overlay">
+                            <a href="https://www.youtube.com/watch?v=vK_dlU5w_1c" target="_blank" rel="noopener"
+                                class="btn-icon" aria-label="Ver en YouTube"><i class="fas fa-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag">IA Generativa</span>
+                            <span class="tag">Vídeo</span>
+                            <span class="tag">Creación Multimedia</span>
+                        </div>
+                        <h3>Entre Memoria y Algoritmo</h3>
+                        <p>Proyecto final de la asignatura de IA Generativa para la Creación Multimedia. Un vídeo creado
+                            con inteligencia artificial que explora la frontera entre lo humano y lo digital.</p>
+                    </div>
+                </div>
+
+                <!-- Proyecto 1b: Presentación Proyecto IA -->
+                <div class="project-card reveal">
+                    <div class="card-media">
+                        <img src="https://img.youtube.com/vi/6yY99SA1SdY/hqdefault.jpg" alt="Presentación Proyecto IA Generativa">
+                        <div class="overlay">
+                            <a href="https://www.youtube.com/watch?v=6yY99SA1SdY" target="_blank" rel="noopener"
+                                class="btn-icon" aria-label="Ver en YouTube"><i class="fas fa-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag">IA Generativa</span>
+                            <span class="tag">Presentación</span>
+                            <span class="tag">Vídeo</span>
+                        </div>
+                        <h3>Presentación — Proyecto IA Generativa</h3>
+                        <p>Vídeo de presentación del proyecto final de IA Generativa para la Creación Multimedia, donde se expone el proceso creativo y las herramientas utilizadas.</p>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: Figma UI/UX -->
+                <div class="project-card reveal">
+                    <div class="card-media">
+                        <img src="IMG/figma-preview.png" alt="Mockups Diseño de Interfaces">
+                        <div class="overlay">
+                            <a href="https://www.figma.com/proto/n7ZqQSBwp1IvGVEwajSzbY/Mockups-R3---Iv%C3%A1n-Baquero?node-id=4-2&starting-point-node-id=4%3A2"
+                                target="_blank" rel="noopener" class="btn-icon" aria-label="Ver versión desktop"><i
+                                    class="fas fa-desktop"></i></a>
+                            <a href="https://www.figma.com/proto/n7ZqQSBwp1IvGVEwajSzbY/Mockups-R3---Iv%C3%A1n-Baquero?node-id=16-4&starting-point-node-id=16%3A4"
+                                target="_blank" rel="noopener" class="btn-icon" aria-label="Ver versión mobile"><i
+                                    class="fas fa-mobile-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Diseño de Interfaces</span>
+                        </div>
+                        <h3>Mockups — Diseño de Interfaces</h3>
+                        <p>Prototipo interactivo diseñado en Figma para la asignatura de Diseño de Interfaces. Incluye
+                            versiones desktop y mobile con flujos de navegación completos.</p>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3: Vídeo Presentación DI -->
+                <div class="project-card reveal">
+                    <div class="card-media">
+                        <img src="https://img.youtube.com/vi/LqKqw9JYN7Q/hqdefault.jpg"
+                            alt="Presentación Diseño de Interfaces">
+                        <div class="overlay">
+                            <a href="https://www.youtube.com/watch?v=LqKqw9JYN7Q" target="_blank" rel="noopener"
+                                class="btn-icon" aria-label="Ver vídeo"><i class="fas fa-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag">Vídeo</span>
+                            <span class="tag">Presentación</span>
+                            <span class="tag">Diseño de Interfaces</span>
+                        </div>
+                        <h3>Presentación de Proyecto — Diseño de Interfaces</h3>
+                        <p>Vídeo de presentación del proyecto de Diseño de Interfaces, incluyendo la defensa del diseño
+                            y las decisiones tomadas durante el proceso creativo.</p>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4: Nexus - HTML/CSS -->
+                <div class="project-card reveal">
+                    <div class="card-media">
+                        <img src="IMG/nexus-preview.png" alt="Nexus Digital Agency">
+                        <div class="overlay">
+                            <a href="https://ivanix135.github.io/Nexus---Ivan-Baquero/" target="_blank" rel="noopener" class="btn-icon" aria-label="Ver web en vivo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Desarrollo Web</span>
+                        </div>
+                        <h3>Nexus — Digital Agency</h3>
+                        <p>Sitio web de una agencia digital desarrollado con HTML y CSS para la asignatura de Desarrollo Web. Diseño responsive, accesible y con atención al detalle visual.</p>
+                    </div>
+                </div>
+
+                <!-- Proyecto 5: Luminary Records - HTML/CSS -->
+                <div class="project-card reveal">
+                    <div class="card-media">
+                        <img src="IMG/luminary-preview.png" alt="Luminary Records">
+                        <div class="overlay">
+                            <a href="https://ivanix135.github.io/Luminary-Records---Ivan-Baquero/" target="_blank" rel="noopener" class="btn-icon" aria-label="Ver web en vivo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Desarrollo Web</span>
+                        </div>
+                        <h3>Luminary Records</h3>
+                        <p>Sitio web de un sello discográfico desarrollado con HTML y CSS. Diseño moderno, responsive y con una estética visual cuidada al detalle.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Aquí se añadirán futuros semestres -->
+            <!-- <h3 class="semester-title reveal"><span class="semester-badge">2º Semestre</span></h3>
+            <div class="portfolio-grid">
+                ...
+            </div> -->
+        </div>
+    </section>
+
+    <!-- ════ CONTACTO ════ -->
+    <section id="contacto" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="label">Contacto</span>
+                <h2>¿Hablamos?</h2>
+                <p>Si tienes alguna propuesta, pregunta o simplemente quieres conectar, ¡escríbeme!</p>
+            </div>
+            <div class="contact-wrapper reveal">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/iv%C3%A1n-baquero-valiente-435914255/" target="_blank"
+                                rel="noopener">linkedin.com/in/iván-baquero-valiente</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:ivanix135@gmail.com">ivanix135@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Zaragoza, España</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <div>
+                            <h4>Trabajo actual</h4>
+                            <p>Docente en Davante — Dpto. Informática y Comunicaciones</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form" action="https://formspree.io/f/xeewypnd" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nombre *</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" placeholder="¿De qué quieres hablar?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje *</label>
+                        <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+                        <i class="fas fa-paper-plane"></i> Enviar mensaje
+                    </button>
+                    <div class="form-msg"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════ FOOTER ════ -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Iván Baquero Valiente. Diseñado con <span style="color:var(--accent);">&#9829;</span>.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/iv%C3%A1n-baquero-valiente-435914255/" target="_blank"
+                    rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:ivanix135@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
